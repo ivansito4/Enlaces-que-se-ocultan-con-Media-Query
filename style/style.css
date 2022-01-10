@@ -1,0 +1,28 @@
+
+li{
+    display: inline;
+    border: 1px blue solid;
+    text-decoration: none;
+    background-color: lightskyblue;
+    padding: 10px 130px;
+    font-size: 20px;
+}
+li:hover{
+    background-color: lightslategrey;
+}
+@media only screen and (max-width: 1374px){
+    #d{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 1044px){
+    #c{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 713px){
+    #b{
+        visibility: hidden;
+    }
+}
+ 
